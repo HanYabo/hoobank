@@ -1,7 +1,10 @@
+import React from 'react'
 
 
-export default function Button() {
+const Button = ({ styles }) => {
   return (
-    <div>Button</div>
+    <button type="button" className={`py-4 px-6 bg-blue-gradient`}>Get Started</button>
   )
 }
+
+export default Button
